@@ -23,15 +23,6 @@
   metadata-complete="true">
 
   <servlet>
-     <servlet-name>FirstServlet</servlet-name>
-     <servlet-class>org.example.FirstServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-     <servlet-name>FirstServlet</servlet-name>
-     <url-pattern>/first</url-pattern>
-  </servlet-mapping>
-
-  <servlet>
      <servlet-name>DownloadServlet</servlet-name>
      <servlet-class>org.example.DownloadServlet</servlet-class>
   </servlet>
