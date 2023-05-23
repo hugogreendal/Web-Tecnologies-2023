@@ -1,2 +1,2 @@
 # Web-Tecnologies-2023
-Лабораторные работы по веб-технологиям
+Lab works for web technologies course.
