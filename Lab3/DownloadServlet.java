@@ -18,7 +18,7 @@ public class DownloadServlet extends HttpServlet {
         resp.setContentType("image/jpeg");
 
         // Загрузка изображения из файла
-        String imagePath = "/Users/greendal/Desktop/memso/work.jpg";
+        String imagePath = "path/to/the/file.jpg";
         File imageFile = new File(imagePath);
 
         try (InputStream inputStream = new FileInputStream(imageFile);
