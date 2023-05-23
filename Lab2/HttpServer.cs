@@ -1,4 +1,4 @@
-﻿using System.Net;
+using System.Net;
 using System.Reflection.PortableExecutable;
 using System.Text;
 
@@ -138,22 +138,3 @@ public class LocalHttpServer
         context.Response.OutputStream.Close();
     }
 }
-
-/* на данный момент сервер парсит реквест на нужные составляющие
- * нужно:
- * - багофикс
- * в комментах баги и потестить на разных запросах и нескольких клиентах может что то еще вылезет
-*/
-
-/*var headers = request.Headers;
-            var body1 = new StreamReader(request.InputStream).ReadToEnd();
-
-            Console.WriteLine($"{request.HttpMethod} {request.Url} HTTP/{request.ProtocolVersion}");
-            foreach (string headerName in headers.AllKeys)
-            {
-                Console.WriteLine($"{headerName}: {headers[headerName]}");
-            }
-            Console.WriteLine();
-            Console.WriteLine(body1);
- * Если нужен вывод запроса
- */ 
