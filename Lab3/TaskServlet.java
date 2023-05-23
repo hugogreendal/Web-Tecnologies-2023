@@ -35,7 +35,6 @@ public class TaskServlet extends HttpServlet {
         try (var reader = req.getReader(); var writer = resp.getWriter()) {
             var lines = reader.lines();
             lines.forEach(System.out::println);
-            writer.write("<p>HIIIII</p>");
         }
     }
 
