@@ -1,8 +1,5 @@
-﻿
 using System.Net.Sockets;
-//using System.Net;
 using System.Text;
-//using System.Net.Http;
 using System.Net.Security;
 using Renci.SshNet;
 #nullable disable
